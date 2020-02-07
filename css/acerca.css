@@ -1,0 +1,103 @@
+main{
+    background-color: white;
+    display: grid;
+    grid-template-areas: 
+    "nombre foto"
+    "corto largo"
+    "motivaciones gustos";
+    margin: 3%;
+}
+
+main h2{
+    font-size: 3vw;
+    color: #222;
+    text-align: center;
+}
+
+main h3{
+    font-size: 2.5vw;
+    text-align: justify;
+    color: rgb(253, 144, 141);
+}
+
+main li {
+    font-size: 2vw;
+    color: #444;
+    list-style-position: inside;
+}
+
+.fotito {
+    grid-area: foto;
+    width: 50%;
+}
+
+#foto{
+    margin: 2vw;
+    border-bottom: 10px;
+    border-top: 10px;
+    border-left: 10px;
+    border-right: 10px;
+    border-color: #FFC5C3;
+    border-radius: 1em;
+    border-style: solid;
+    width: 20em;
+}
+
+.nombre{
+    grid-area: nombre;
+    display: flex;
+    align-items: center;
+}
+
+.corto{
+    grid-area: corto;
+    margin: 2vw;
+    border-bottom: 10px;
+    border-top: 10px;
+    border-left: 10px;
+    border-right: 10px;
+    border-color: #FFC5C3;
+    border-radius: 1em;
+    border-style: solid;
+    padding: 2vw;
+}
+
+
+.largo{
+    grid-area: largo;
+    margin: 2vw;
+    border-bottom: 10px;
+    border-top: 10px;
+    border-left: 10px;
+    border-right: 10px;
+    border-color: #FFC5C3;
+    border-radius: 1em;
+    border-style: solid;
+    padding: 2vw;
+}
+
+.motivaciones{
+    grid-area: motivaciones;
+    margin: 2vw;
+    border-bottom: 10px;
+    border-top: 10px;
+    border-left: 10px;
+    border-right: 10px;
+    border-color: #FFC5C3;
+    border-radius: 1em;
+    border-style: solid;
+    padding: 2vw;
+}
+
+.gustos{
+    grid-area: gustos;
+    margin: 2vw;
+    border-bottom: 10px;
+    border-top: 10px;
+    border-left: 10px;
+    border-right: 10px;
+    border-color: #FFC5C3;
+    border-radius: 1em;
+    border-style: solid;
+    padding: 2vw;
+}
