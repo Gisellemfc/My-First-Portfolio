@@ -1,0 +1,17 @@
+main {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+main h1{
+    font-size: 4vw;
+    color: #333;
+    text-align: center;
+    margin-top: 2%;
+}
+
+#separador {
+    size: 100%;
+    background-repeat: repeat-x;
+}
