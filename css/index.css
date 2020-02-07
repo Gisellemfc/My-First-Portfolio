@@ -5,4 +5,68 @@
     outline:0;
     vertical-align:baseline;
     background:transparent;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', sans-serif;
+}
+
+.main {
+}
+
+.hero {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 70px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    padding: 2em;
+    width: 40%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    padding: 1%;
+    background-color: #ff6b35;
+    font-size: 1.1em;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    text-align: center;
+    margin: 5px;
+    padding: 2em;
+}
+
+header img{
+    width: 15%;
+}
+
+header h1 {
+    padding-left: 5px;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a: {
+    color: #f9cb40;
+}
+
+a:visited {
+    color: white;
 }
