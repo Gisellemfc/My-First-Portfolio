@@ -9,32 +9,31 @@
     font-family: 'Gill Sans', sans-serif;
 }
 
-.main {
-}
-
 .hero {
     display: flex;
     width: 100%;
     justify-content: space-around;
     height: 70px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
 }
 
 header {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #333;
+    color: #444;
     padding: 2em;
     width: 40%;
 }
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     width: 60%;
     padding: 1%;
-    background-color: #ff6b35;
-    font-size: 1.1em;
+    background-color: #FFC5C3;
 }
 
 nav ul {
@@ -60,13 +59,44 @@ header h1 {
 
 a:link {
     text-decoration: none;
-    color: white;
-}
-
-a: {
-    color: #f9cb40;
+    color: #444;
 }
 
 a:visited {
-    color: white;
+    color: #444;
+}
+
+.banner {
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    z-index: -1;
+    top: 0px;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    position: fixed;
+    left: 22.5%;
+    right: 22.5%;
+    top: 50%;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+}
+
+.texto h2{
+    font-size: 3em;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+.texto h4{
+    font-size: 1.1em;
+    text-align: center;
+    padding-top: 10px;
+    font-style: oblique;
 }
