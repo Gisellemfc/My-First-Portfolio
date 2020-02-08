@@ -6,7 +6,7 @@ function recogerForm(){
     var mensaje = document.getElementById("mensaje").value;
 
     if(nombre != "" && apellido != "" && email != "" && cel != "" && mensaje != ""){
-        console.log("Nombre: " + nombre + "\ Apellido: " + apellido + "\ Email: " + email + "\ Teléfono: " + cel + "\ Mensaje: " + mensaje);
+        console.log("Nombre: " + nombre + "\nApellido: " + apellido + "\nEmail: " + email + "\nTeléfono: " + cel + "\nMensaje: " + mensaje);
         alert("¡Su solicitud ha sido enviada correctamente!")
     }
 
