@@ -1,0 +1,52 @@
+main{
+    background-color: white;
+    display: grid;
+    grid-template-areas: 
+    "nombre foto"
+    "corto largo"
+    "motivaciones gustos";
+    margin: 3%;
+}
+
+main h1{
+    font-size: 4vw;
+    color: #333;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.separador {
+    width: 100%;
+    height: 50px;
+    background-image: url(../images/separador.png);
+    background-size: 20vw;
+    background-repeat: repeat-x;
+}
+
+.habilidades {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.habilidades img{
+    width: 80%;
+    align-self: center;
+}
+
+.habili {
+    margin: 2%;
+    background-color: #444;
+    border-radius: 2em;
+}
+
+.habili img{
+    align-self: center;
+    justify-self: center;
+    width: 100%;
+}
+
+.habili h1{
+    color: white;
+}
